@@ -176,7 +176,7 @@ header {
   text-decoration: none;
 }
 
-#logo_text h1 a .logo_colour { 
+#logo_text h1 a .logo_colour, .logo_colour { 
   color: #C3E600;
 }
 
@@ -193,30 +193,30 @@ header {
 nav { 
   height: 44px;
   width: 930px;
-  float: right;
+  float: left;
   margin: 0 auto 0 auto;
   color: #222;
   background: #404040;
 } 
 
 #site_content { 
-  width: 930px;
+  width: 890px;
   overflow: hidden;
-  margin: 20px auto;
   background: #555;
   color: #DDD;
+  padding: 20px;
 } 
 
-#sidebar_container { 
+/*#sidebar_container { 
   float: right;
   width: 450px;
   padding: 0;
   height: 450px;
-}
+}*/
 
 #content { 
   text-align: left;
-  width: 440px;
+  width: 880px;
   margin: 0 0 0 0;
   float: left;
   padding: 0 20px 20px 20px;
@@ -502,7 +502,7 @@ ul ul span.sf-arrow {
 
 /* Theming the menu */
 ul#nav { 
-  float: right;
+  float: left;
 }
 
 ul#nav ul { 
